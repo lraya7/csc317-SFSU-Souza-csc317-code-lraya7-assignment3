@@ -1,12 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Post Video</title>
+    <title>Post Video</title> <!--Document Title-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vertical Search Bar</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <div class = "container"> 
+                <h1> Instagram Clone</h1> <!--Banner--> 
+        <nav>
+            <ul class="search-container">
+                <li><input type="text" placeholder="Home" class="search-bar"></li>
+                <li><input type="text" placeholder="Login" class="search-bar"></li>
+                <li><input type="text" placeholder="Register" class="search-bar"></li>
+                <li><input type="text" placeholder="Post Video" class="search-bar"></li>
+                <li><input type="text" placeholder="View Post" class="search-bar"></li>
+                <li><button class="search-button">Search</button></li>
+            </ul>
+        </nav>
+    </body>
+    </html>
 </head>
 <body>
-    <nav>
+    <header>
+        <div class = "container"> 
+            <h1> Instagram Clone</h1><!--Banner-->
+        </div>
+    </header>
+
+    <nav>z<!--Nav bar-->
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="login.html">Login</a></li>
@@ -16,9 +44,15 @@
         </ul>
     </nav>
     <main>
+        <div class="asks"> 
+
+        </div>
         <section>
             <h2>Post a Video</h2>
-            <form action="postvideo.html" method="post" enctype="multipart/form-data">
+            <form>
+                <label> 
+
+                <for= "postvideo.html" method="post" enctype="multipart/form-data">
                 <label for="title">Post Title:</label>
                 <input type="text" id="title" name="title" required>
                 <br>
@@ -33,7 +67,9 @@
                 <br>
                 <button type="submit">Submit Video</button>
             </form>
+        </label>
         </section>
     </main>
 </body>
+</html>
 </html>
